@@ -45,18 +45,20 @@ Upon running the dashboard, you will be presented with a menu of economic indica
 ### Library Imports: 
 Import the required libraries.
 
-    pandas
-    pandas_datareader
-    streamlit 
-    plotly
-    datetime
+    import pandas as pd
+    import pandas_datareader.data as web
+    import streamlit as st
+    import matplotlib.pyplot as plt
+    import datetime
 
 ### Title: 
 The dashboard's title is set using the 'st.title' function.
 
 ### Sidebar: 
 A sidebar is created using the 'st.sidebar.title' function to allow the user to select an economic indicator and a date range. 
+
 The available economic indicators are defined in a list called 'indicators', and a dropdown menu is created using the 'st.sidebar.selectbox' function. 
+
 Date input widgets are also created for selecting the start and end dates.
 
 ### Data Retrieval: 
