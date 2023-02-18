@@ -1,5 +1,7 @@
 # Interactive Economic KPI Dashboard
 
+Deployable Dashboard: https://interactiveeconomickpi.streamlit.app/
+
 ![Dashboard](./Images/dashboard.png)
 
 ## Introduction
