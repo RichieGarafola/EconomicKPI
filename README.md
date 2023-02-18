@@ -25,7 +25,6 @@ To run the dashboard, you will need the following software:
     - Streamlit (can be installed via pip)
     - Pandas (can be installed via pip)
     - Plotly (can be installed via pip)
-    - FRED API key (can be obtained from https://fred.stlouisfed.org/)
     
 ---
 
